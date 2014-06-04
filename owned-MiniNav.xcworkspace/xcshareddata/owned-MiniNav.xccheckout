@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0C188818-95F6-44A7-B049-61EAF67FE964</string>
+	<key>IDESourceControlProjectName</key>
+	<string>owned-MiniNav</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0829CFD6-AD5C-44A9-BAF4-5EEAA4052A9E</key>
+		<string>ssh://github.com/ReactiveCocoa/ReactiveCocoa.git</string>
+		<key>36969BD3-D1F4-4405-A48C-762F771EEA74</key>
+		<string>ssh://github.com/huyl/fun-upmc-iosdev-semaine5.git</string>
+		<key>71A97FEA-BDBB-4C5F-9336-7A990C25F394</key>
+		<string>https://github.com/jspahrsummers/xcconfigs.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>owned-MiniNav.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0829CFD6-AD5C-44A9-BAF4-5EEAA4052A9E</key>
+		<string>../external/ReactiveCocoa</string>
+		<key>36969BD3-D1F4-4405-A48C-762F771EEA74</key>
+		<string>..</string>
+		<key>71A97FEA-BDBB-4C5F-9336-7A990C25F394</key>
+		<string>../external/ReactiveCocoa/external/xcconfigs</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/huyl/fun-upmc-iosdev-semaine5.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>36969BD3-D1F4-4405-A48C-762F771EEA74</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>36969BD3-D1F4-4405-A48C-762F771EEA74</string>
+			<key>IDESourceControlWCCName</key>
+			<string>owned-MiniNav</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0829CFD6-AD5C-44A9-BAF4-5EEAA4052A9E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ReactiveCocoa</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>71A97FEA-BDBB-4C5F-9336-7A990C25F394</string>
+			<key>IDESourceControlWCCName</key>
+			<string>xcconfigs</string>
+		</dict>
+	</array>
+</dict>
+</plist>
