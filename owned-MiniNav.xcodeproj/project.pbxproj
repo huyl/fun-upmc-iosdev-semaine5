@@ -31,6 +31,7 @@
 		E53D585A193963D400150679 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D5859193963D400150679 /* ViewModel.m */; };
 		E53D585D1939682B00150679 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D585C1939682B00150679 /* Constants.m */; };
 		E5BC0EBB193F143500294E79 /* UIWebView+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BC0EBA193F143500294E79 /* UIWebView+RAC.m */; };
+		E5CE3F95193F800C00970364 /* error.html in Resources */ = {isa = PBXBuildFile; fileRef = E5CE3F94193F800C00970364 /* error.html */; };
 		F42250FA3EC94B478E8879AD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB71E210234F4986B6A80EE8 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,7 @@
 		E53D585C1939682B00150679 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		E5BC0EB9193F143500294E79 /* UIWebView+RAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+RAC.h"; sourceTree = "<group>"; };
 		E5BC0EBA193F143500294E79 /* UIWebView+RAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+RAC.m"; sourceTree = "<group>"; };
+		E5CE3F94193F800C00970364 /* error.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = error.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				E53D5858193963D400150679 /* ViewModel.h */,
 				E53D5859193963D400150679 /* ViewModel.m */,
 				E5051B9B193829D400CF384E /* Images.xcassets */,
+				E5CE3F93193F800C00970364 /* webdocs */,
 				E5051BBD19383C3C00CF384E /* images */,
 				E5051B87193829D400CF384E /* Supporting Files */,
 			);
@@ -201,6 +204,14 @@
 				E5051BBF19383C3C00CF384E /* fond-1024x1024.jpg */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		E5CE3F93193F800C00970364 /* webdocs */ = {
+			isa = PBXGroup;
+			children = (
+				E5CE3F94193F800C00970364 /* error.html */,
+			);
+			path = webdocs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +297,7 @@
 				E53D58501939535B00150679 /* line__0000s_0091_config.png in Resources */,
 				E53D58541939566200150679 /* line__0000s_0071_next.png in Resources */,
 				E5051BC319383C3C00CF384E /* fond-1024x1024.jpg in Resources */,
+				E5CE3F95193F800C00970364 /* error.html in Resources */,
 				E53D584F1939535B00150679 /* line__0000s_0032_home.png in Resources */,
 				E5051B94193829D400CF384E /* Main_iPhone.storyboard in Resources */,
 				E5051B8B193829D400CF384E /* InfoPlist.strings in Resources */,

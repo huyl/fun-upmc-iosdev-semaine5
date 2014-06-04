@@ -145,10 +145,12 @@
                                                             message:[error localizedDescription]
                                                            delegate:nil
                                                   cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alertView.rac_buttonClickedSignal subscribeNext:^(NSNumber *buttonIndex) {
+            // Load Error page
+            NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"error" ofType:@"html"]];
+            [self.viewModel replaceWithUrl:[url absoluteString]];
+        }];
         [alertView show];
-        
-        // Blank out page
-        [self.webView loadRequest:[[NSURLRequest alloc] initWithURL:[NSURL URLWithString:@""]]];
     }];
     
     // React to click of Navigation buttons

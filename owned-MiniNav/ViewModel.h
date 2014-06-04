@@ -17,6 +17,7 @@
 @property (nonatomic, readonly) BOOL hasForwardHistory;
 
 - (void)openUrl:(NSString *)url;
+- (void)replaceWithUrl:(NSString *)url;
 
 /**
  * Returns YES if there is enough back history to go back one

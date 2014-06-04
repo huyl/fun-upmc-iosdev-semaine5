@@ -91,6 +91,17 @@
     self.currentURL = self.history[self.currentURLIndex];
 }
 
+- (void)replaceWithUrl:(NSString *)url
+{
+    if (self.currentURLIndex < 0) {
+        NSLog(@"Cannot replaceWithUrl when there is no current page.");
+        [self openUrl:url];
+    } else {
+        self.history[self.currentURLIndex] = url;
+        self.currentURL = self.history[self.currentURLIndex];
+    }
+}
+
 - (BOOL)goBack
 {
     if (self.currentURLIndex > 0) {
