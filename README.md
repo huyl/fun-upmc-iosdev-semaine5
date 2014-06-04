@@ -22,8 +22,7 @@ Pour compiler:
 - Il faut ouvrir le fichier `owned-MiniNav.xcworkspace/`, pas
 le project `owned-MiniNav.xcodeproj/`.
 -  Il faut être sûr de bien sélectionner le projet `owned-MiniNav` en haut de
-   la fenêtre avant de compiler, parce que le défaut c'est de seulement compiler
-   ReactiveCocoa (Je sais pas pourquoi).
+   la fenêtre avant de compiler.
 
 Techniques
 ----------
