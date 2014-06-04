@@ -22,6 +22,16 @@
 		E5051BA5193829D400CF384E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5051B84193829D400CF384E /* UIKit.framework */; };
 		E5051BAD193829D400CF384E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5051BAB193829D400CF384E /* InfoPlist.strings */; };
 		E5051BAF193829D400CF384E /* owned_MiniNavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5051BAE193829D400CF384E /* owned_MiniNavTests.m */; };
+		E5051BB919382D6E00CF384E /* libReactiveCocoa-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5051BB819382D6E00CF384E /* libReactiveCocoa-iOS.a */; };
+		E5051BC319383C3C00CF384E /* fond-1024x1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5051BBF19383C3C00CF384E /* fond-1024x1024.jpg */; };
+		E53D584F1939535B00150679 /* line__0000s_0032_home.png in Resources */ = {isa = PBXBuildFile; fileRef = E53D584B1939535B00150679 /* line__0000s_0032_home.png */; };
+		E53D58501939535B00150679 /* line__0000s_0091_config.png in Resources */ = {isa = PBXBuildFile; fileRef = E53D584C1939535B00150679 /* line__0000s_0091_config.png */; };
+		E53D58531939566200150679 /* line__0000s_0070_prev.png in Resources */ = {isa = PBXBuildFile; fileRef = E53D58511939566200150679 /* line__0000s_0070_prev.png */; };
+		E53D58541939566200150679 /* line__0000s_0071_next.png in Resources */ = {isa = PBXBuildFile; fileRef = E53D58521939566200150679 /* line__0000s_0071_next.png */; };
+		E53D585A193963D400150679 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D5859193963D400150679 /* ViewModel.m */; };
+		E53D585D1939682B00150679 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D585C1939682B00150679 /* Constants.m */; };
+		E5BC0EBB193F143500294E79 /* UIWebView+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BC0EBA193F143500294E79 /* UIWebView+RAC.m */; };
+		F42250FA3EC94B478E8879AD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB71E210234F4986B6A80EE8 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D748C68929D84FD3ADE501FB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		DB71E210234F4986B6A80EE8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5051B7D193829D400CF384E /* owned-MiniNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "owned-MiniNav.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5051B80193829D400CF384E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E5051B82193829D400CF384E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +67,18 @@
 		E5051BAA193829D400CF384E /* owned-MiniNavTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "owned-MiniNavTests-Info.plist"; sourceTree = "<group>"; };
 		E5051BAC193829D400CF384E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E5051BAE193829D400CF384E /* owned_MiniNavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = owned_MiniNavTests.m; sourceTree = "<group>"; };
+		E5051BB819382D6E00CF384E /* libReactiveCocoa-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libReactiveCocoa-iOS.a"; path = "external/ReactiveCocoa/ReactiveCocoaFramework/build/Debug-iphoneos/libReactiveCocoa-iOS.a"; sourceTree = "<group>"; };
+		E5051BBF19383C3C00CF384E /* fond-1024x1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fond-1024x1024.jpg"; sourceTree = "<group>"; };
+		E53D584B1939535B00150679 /* line__0000s_0032_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line__0000s_0032_home.png; sourceTree = "<group>"; };
+		E53D584C1939535B00150679 /* line__0000s_0091_config.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line__0000s_0091_config.png; sourceTree = "<group>"; };
+		E53D58511939566200150679 /* line__0000s_0070_prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line__0000s_0070_prev.png; sourceTree = "<group>"; };
+		E53D58521939566200150679 /* line__0000s_0071_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line__0000s_0071_next.png; sourceTree = "<group>"; };
+		E53D5858193963D400150679 /* ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		E53D5859193963D400150679 /* ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		E53D585B1939682B00150679 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		E53D585C1939682B00150679 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		E5BC0EB9193F143500294E79 /* UIWebView+RAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+RAC.h"; sourceTree = "<group>"; };
+		E5BC0EBA193F143500294E79 /* UIWebView+RAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+RAC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +86,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5051BB919382D6E00CF384E /* libReactiveCocoa-iOS.a in Frameworks */,
 				E5051B83193829D400CF384E /* CoreGraphics.framework in Frameworks */,
 				E5051B85193829D400CF384E /* UIKit.framework in Frameworks */,
 				E5051B81193829D400CF384E /* Foundation.framework in Frameworks */,
+				F42250FA3EC94B478E8879AD /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +114,7 @@
 				E5051BA8193829D400CF384E /* owned-MiniNavTests */,
 				E5051B7F193829D400CF384E /* Frameworks */,
 				E5051B7E193829D400CF384E /* Products */,
+				D748C68929D84FD3ADE501FB /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +130,12 @@
 		E5051B7F193829D400CF384E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E5051BB819382D6E00CF384E /* libReactiveCocoa-iOS.a */,
 				E5051B80193829D400CF384E /* Foundation.framework */,
 				E5051B82193829D400CF384E /* CoreGraphics.framework */,
 				E5051B84193829D400CF384E /* UIKit.framework */,
 				E5051BA2193829D400CF384E /* XCTest.framework */,
+				DB71E210234F4986B6A80EE8 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,13 +143,20 @@
 		E5051B86193829D400CF384E /* owned-MiniNav */ = {
 			isa = PBXGroup;
 			children = (
+				E53D585B1939682B00150679 /* Constants.h */,
+				E53D585C1939682B00150679 /* Constants.m */,
 				E5051B8F193829D400CF384E /* AppDelegate.h */,
 				E5051B90193829D400CF384E /* AppDelegate.m */,
 				E5051B92193829D400CF384E /* Main_iPhone.storyboard */,
 				E5051B95193829D400CF384E /* Main_iPad.storyboard */,
 				E5051B98193829D400CF384E /* ViewController.h */,
 				E5051B99193829D400CF384E /* ViewController.m */,
+				E5BC0EB9193F143500294E79 /* UIWebView+RAC.h */,
+				E5BC0EBA193F143500294E79 /* UIWebView+RAC.m */,
+				E53D5858193963D400150679 /* ViewModel.h */,
+				E53D5859193963D400150679 /* ViewModel.m */,
 				E5051B9B193829D400CF384E /* Images.xcassets */,
+				E5051BBD19383C3C00CF384E /* images */,
 				E5051B87193829D400CF384E /* Supporting Files */,
 			);
 			path = "owned-MiniNav";
@@ -155,6 +191,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E5051BBD19383C3C00CF384E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E53D58511939566200150679 /* line__0000s_0070_prev.png */,
+				E53D58521939566200150679 /* line__0000s_0071_next.png */,
+				E53D584B1939535B00150679 /* line__0000s_0032_home.png */,
+				E53D584C1939535B00150679 /* line__0000s_0091_config.png */,
+				E5051BBF19383C3C00CF384E /* fond-1024x1024.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5051BB2193829D400CF384E /* Build configuration list for PBXNativeTarget "owned-MiniNav" */;
 			buildPhases = (
+				5C19D6EB84C64698897328A1 /* Check Pods Manifest.lock */,
 				E5051B79193829D400CF384E /* Sources */,
 				E5051B7A193829D400CF384E /* Frameworks */,
 				E5051B7B193829D400CF384E /* Resources */,
+				EFAACAED9B73434EAA7AADD6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,8 +283,13 @@
 			files = (
 				E5051B97193829D400CF384E /* Main_iPad.storyboard in Resources */,
 				E5051B9C193829D400CF384E /* Images.xcassets in Resources */,
+				E53D58501939535B00150679 /* line__0000s_0091_config.png in Resources */,
+				E53D58541939566200150679 /* line__0000s_0071_next.png in Resources */,
+				E5051BC319383C3C00CF384E /* fond-1024x1024.jpg in Resources */,
+				E53D584F1939535B00150679 /* line__0000s_0032_home.png in Resources */,
 				E5051B94193829D400CF384E /* Main_iPhone.storyboard in Resources */,
 				E5051B8B193829D400CF384E /* InfoPlist.strings in Resources */,
+				E53D58531939566200150679 /* line__0000s_0070_prev.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,13 +303,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C19D6EB84C64698897328A1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFAACAED9B73434EAA7AADD6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5051B79193829D400CF384E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E53D585D1939682B00150679 /* Constants.m in Sources */,
 				E5051B9A193829D400CF384E /* ViewController.m in Sources */,
+				E53D585A193963D400150679 /* ViewModel.m in Sources */,
 				E5051B91193829D400CF384E /* AppDelegate.m in Sources */,
+				E5BC0EBB193F143500294E79 /* UIWebView+RAC.m in Sources */,
 				E5051B8D193829D400CF384E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,12 +478,24 @@
 		};
 		E5051BB3193829D400CF384E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D748C68929D84FD3ADE501FB /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "owned-MiniNav/owned-MiniNav-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/Masonry\"",
+					"\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "owned-MiniNav/owned-MiniNav-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/external/ReactiveCocoa/ReactiveCocoaFramework/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,12 +503,24 @@
 		};
 		E5051BB4193829D400CF384E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D748C68929D84FD3ADE501FB /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "owned-MiniNav/owned-MiniNav-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/Masonry\"",
+					"\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "owned-MiniNav/owned-MiniNav-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/external/ReactiveCocoa/ReactiveCocoaFramework/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +585,7 @@
 				E5051BB4193829D400CF384E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5051BB5193829D400CF384E /* Build configuration list for PBXNativeTarget "owned-MiniNavTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +594,7 @@
 				E5051BB7193829D400CF384E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
