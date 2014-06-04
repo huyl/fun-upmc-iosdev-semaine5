@@ -79,6 +79,7 @@
         // Limit size of history
         if ([self.history count] == kMaxHistorySize) {
             [self.history removeObjectAtIndex:0];
+            self.currentURLIndex--;
         }
     
         // Add to history
