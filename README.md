@@ -35,6 +35,7 @@ Fonctionnalité :
 
 Structure :
 
+- NSUserDefaults
 - Organisation [Model-View-ViewModel
   (MVVM)](http://www.teehanlax.com/blog/model-view-viewmodel-for-ios/)
 - Style [Functional Reactive Programming](http://en.wikipedia.org/wiki/Functional_reactive_programming)
