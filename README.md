@@ -37,7 +37,7 @@ Fonctionnalité :
 - AlertView
 - Universelle
 - Rotation
-- iOS6 & 7
+- iOS6 & 7 (handling of statusbar)
 
 Structure :
 
