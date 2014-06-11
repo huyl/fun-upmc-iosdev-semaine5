@@ -29,6 +29,12 @@ Techniques
 
 Fonctionnalité :
 
+- WebView
+  - historique qui émule Chrome
+  - remote fetch
+  - local web page
+- Toolbar
+- AlertView
 - Universelle
 - Rotation
 - iOS6 & 7
@@ -38,7 +44,9 @@ Structure :
 - NSUserDefaults
 - Organisation [Model-View-ViewModel
   (MVVM)](http://www.teehanlax.com/blog/model-view-viewmodel-for-ios/)
-- Style [Functional Reactive Programming](http://en.wikipedia.org/wiki/Functional_reactive_programming)
+- Style [Functional Reactive Programming](http://en.wikipedia.org/wiki/Functional_reactive_programming) au travers de ReactiveCocoaA
+  - Highlight: button is enabled based on state of some property
+  - Highlight: conversion of delegate selector call into a signal
 - L'interface est construise programmatiquement; pas de Storyboard / Interface Builder
 - Auto-Layout
 - ARC, à cause de ReactiveCocoa et presque [tout le
